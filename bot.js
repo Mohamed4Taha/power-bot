@@ -39,3 +39,26 @@ client.on('message', msg => {
        msg.reply('**و عليكم السلام و رحمة الله و بركاته:heart: **');
       }
 });
+
+
+
+
+//الرد التلقائي
+
+client.on('message', msg => {
+    if (msg.content === 'السلام عليكم') {
+       msg.reply('**و عليكم السلام و رحمة الله و بركاته:heart: **');
+      }
+    });
+
+client.on('message', msg => {
+    if (msg.content === 'باك') {
+       msg.reply('**ولكم باك :heart:**');
+      }
+    });
+
+    client.on('message', msg => {
+        if (msg.content === 'هاي') {
+           msg.reply('**هايات :heart: **');
+          }
+        });
