@@ -1,7 +1,7 @@
 {
-  "name": "power bot",
+  "name": "bytetech",
   "version": "2.1.0",
-  "description": "-- discordbot --",
+  "description": "-- AWESOMENESS --",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
